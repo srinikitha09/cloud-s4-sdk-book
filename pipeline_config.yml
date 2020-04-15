@@ -21,6 +21,10 @@
 
 ### General project setup
 general:
+  jenkinsKubernetes:
+    securityContext:
+      runAsUser: 1000
+      fsGroup: 1000
 
 
 ### Step-specific configuration
