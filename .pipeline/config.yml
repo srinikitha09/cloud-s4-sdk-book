@@ -1,0 +1,8 @@
+general:
+  productiveBranch: master
+steps:
+ mavenExecuteStaticCodeChecks:
+   pmdMaxAllowedViolations:
+   spotBugsMaxAllowedViolations: 10
+   pmdFailurePriority: 5
+  
